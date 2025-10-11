@@ -1,0 +1,51 @@
+body {
+  background-color: #111;
+  color: #0f0;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  padding: 2rem;
+  text-align: center;
+}
+
+.form {
+  margin-bottom: 1.5rem;
+}
+
+.inputs input {
+  width: 80px;
+  margin: 0.25rem;
+  background: #222;
+  color: #0f0;
+  border: 1px solid #0f0;
+  padding: 0.25rem;
+}
+
+select, button {
+  margin: 0.25rem;
+  background: #333;
+  color: #0f0;
+  border: 1px solid #0f0;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0f0;
+  color: #111;
+}
+
+.history ul {
+  list-style: none;
+  padding: 0;
+}
+
+.history li {
+  margin: 0.25rem 0;
+  background: #222;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
